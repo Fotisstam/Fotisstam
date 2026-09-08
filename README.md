@@ -5,28 +5,11 @@
 ---
 
 ### Executive Summary
-Electrical & Computer Engineering student with hands-on experience in full-lifecycle hardware development, mixed-signal PCB layout, and low-level firmware integration. Proven track record in multi-layer board design, analog signal conditioning, and power path distribution for autonomous robotics and biopotential instrumentation. Skilled in taking mixed-signal systems from initial schematic capture and LTspice simulation through layout, board bring-up, and hardware-software integration.
+Electrical & Computer Engineering student with hands-on experience in full-lifecycle hardware development, mixed-signal PCB layout, and low-level firmware integration. Proven track record in multi-layer board design, analog signal conditioning, and power path distribution for autonomous robotics and embedded sensor nodes. Skilled in taking hardware systems from initial schematic capture and LTspice simulation through layout, board bring-up, and hardware-software integration.
 
 ---
 
 ### 🔬 Featured Hardware Designs & Projects
-
-<div align="center">
-
-#### 32-Channel Biopotential Acquisition Platform
-*Full-lifecycle development of a high-density, mixed-signal EEG acquisition system.*
-
-| Altium 3D Render | Multi-Layer PCB Routing |
-| :---: | :---: |
-| <img src="assets/eeg_3d_render.png" width="400" alt="32-Channel EEG 3D Render"> | <img src="assets/eeg_layout.png" width="400" alt="Multi-Layer PCB Layout"> |
-
-</div>
-
-- **Analog & AFE:** Designed multi-channel bio-amplifier front-ends utilizing TI biopotential AFEs, incorporating low-noise active filters and precision voltage references.
-- **High-Speed Digital Layout:** Managed multi-layer stackups in Altium Designer with FMC memory interface routing (166 MHz SDRAM), High-Speed USB 2.0 (ULPI PHY), and length-matched differential buses.
-- **Power & Safety Isolation:** Implemented switching regulators, LiPo power-path charging management, and galvanic isolation barriers compliant with IEC 60601-1 creepage/clearance constraints.
-
----
 
 <div align="center">
 
@@ -47,28 +30,28 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 
 <div align="center">
 
-#### Wireless Motion Capture (MoCap) Sensor Node & Visualizer
-*Low-power inertial telemetry node paired with real-time waveform visualization software.*
+#### Wireless Motion Capture (MoCap) Sensor Node
+*Low-power inertial telemetry node for real-time orientation tracking.*
 
-| Hardware Node Layout | Desktop Waveform Visualizer |
+| Hardware Node Layout | 3D Board View |
 | :---: | :---: |
-| <img src="assets/mocap_node.png" width="400" alt="ESP32-C3 MoCap Hardware Node"> | <img src="assets/eeg_app_gui.png" width="400" alt="PyQt5 Real-Time GUI Application"> |
+| <img src="assets/mocap_node.png" width="400" alt="ESP32-C3 MoCap Hardware Node Layout"> | <img src="assets/mocap_3d.png" width="400" alt="ESP32-C3 MoCap 3D Render"> |
 
 </div>
 
 - **Circuit & RF Design:** Integrated ESP32-C3 microcontroller with a 9-DOF IMU, low-noise LDO power filtering, and RF antenna keep-out domains streaming over low-latency ESP-NOW protocol.
-- **GUI Application:** Developed high-throughput Python (PyQt5 / pyqtgraph) desktop software to process and display real-time biopotential serial data streams from STM32 hardware platforms.
+- **Power Management:** Optimized low-dropout power distribution and battery circuitry for compact wearable form factors.
 
 ---
 
 ### 🛠 Technical Core Competencies
 
 * **EDA & Design Tools:** Altium Designer (Schematic Capture, Multi-Layer Layout, Rigid Stackups), KiCad, Cadence Virtuoso, LTspice, Fusion 360
-* **PCB Architecture & Signal Integrity:** Mixed-Signal Layout, Controlled Impedance Trace Routing, Ground Domain Isolation, Length Matching, Differential Pairs, USB 2.0 (ULPI), FMC Memory Buses
-* **Analog & Mixed-Signal Circuitry:** Biopotential Analog Front-Ends (AFEs), Low-Noise Instrumentation Amplifiers, Active Filtering Networks, Small-Signal Conditioning, LTspice Modeling
+* **PCB Architecture & Signal Integrity:** Mixed-Signal Layout, Controlled Impedance Trace Routing, Ground Domain Isolation, Length Matching, Differential Pairs
+* **Analog & Circuitry:** Low-Noise Instrumentation Amplifiers, Active Filtering Networks, Small-Signal Conditioning, LTspice Modeling
 * **Power Distribution Networks (PDN):** Switching Regulators (Buck/Boost), Low-Dropout Regulators (LDOs), LiPo Battery Chargers, Power-Path MOSFET Management, Current Sense Shunts
 * **Embedded Interfaces & Firmware:** STM32 (ARM Cortex-M4/M7), ESP32 Wireless (ESP-NOW), DMA Architecture, Bare-Metal C/C++, VHDL (FPGA Interfacing), SPI, I2C, UART
-* **Design for Compliance & Testing:** Board Bring-Up & Hardware Debugging, Galvanic Isolation Slots (IEC 60601-1 Creepage/Clearance), Oscilloscopes, Logic Analyzers
+* **Design for Compliance & Testing:** Board Bring-Up & Hardware Debugging, Oscilloscopes, Logic Analyzers, Multimeters
 
 ---
 
