@@ -20,7 +20,7 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 *High-density robotics PCB hardware platform designed in Altium Designer.*
 - **Multi-Layer PCB Layout:** Designed a compact multi-layer board integrating power distribution, motor drivers, and sensor interface buses.
 - **Power & Motion:** Integrated switching buck regulators, high-current switching stages, and current-sense shunts for real-time motor control.
-- **Related Robotics Repositories:**
+- **Related Hardware & Logic:**
   - **[IR_Sensor_Module](https://github.com/Fotisstam/IR_Sensor_Module):** Dedicated IR sensor array hardware design with panelization for assembly.
   - **[Micromouse](https://github.com/Fotisstam/Micromouse):** Low-level C++ control algorithms, wall-following telemetry, and real-time navigation routines.
 
@@ -31,11 +31,14 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 #### 4. [Line_Follower-main](https://github.com/Fotisstam/Line_Follower-main)
 *STM32-powered autonomous competition robotics platform.*
 - **Embedded Control:** Developed low-level bare-metal C firmware using DMA ADC scanning and hardware timers for high-speed PID control loops.
-- **Sensor & Power Stages:** Interfaced circular IR sensor arrays and high-current power path distribution units.
-- **Related Robotics Repository:**
-  - **[Sumo_Robot_ESP32](https://github.com/Fotisstam/Sumo_Robot_ESP32):** Wireless ESP32 power stage and high-current motor drivers.
+- **Sensor & Power Stages:** Interfaced circular IR sensor arrays, motor drivers, and high-current power path distribution units.
 
-#### 5. [ESP32_IMU_BOARD](https://github.com/Fotisstam/ESP32_IMU_BOARD)
+#### 5. [Sumo_Robot_ESP32](https://github.com/Fotisstam/Sumo_Robot_ESP32)
+*Autonomous competition Sumo robot platform powered by ESP32.*
+- **Power & Actuation Stage:** Designed high-current motor driver power stages, tactile/IR sensor interfaces, and power management circuits.
+- **Wireless Interfacing:** Implemented low-latency telemetry and wireless state machine control over ESP32 protocols.
+
+#### 6. [ESP32_IMU_BOARD](https://github.com/Fotisstam/ESP32_IMU_BOARD)
 *ESP32-C3 MINI based IMU hardware node featuring battery management circuitry.*
 - **Circuit & RF Integration:** Integrated ESP32-C3 MINI module with 9-DOF motion tracking sensors, low-noise LDO power regulation, and RF antenna keep-out domains streaming telemetry over ESP-NOW.
 - **Power Management:** Designed LiPo battery charger circuitry, power-path routing, and low-dropout power rails optimized for wearable applications.
