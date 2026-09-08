@@ -1,44 +1,72 @@
-Fotis Stamatakis 👋
-**Electrical & Computer Engineering Student | Embedded Systems & Hardware Engineer**
+# Hi, I'm Fotis Stamatakis 
+**Electrical & Computer Engineering Student | Embedded Hardware Engineer**
 
 ---
 
 ### 👨‍💻 About Me
 - 🎓 Electrical & Computer Engineering student at the **University of Peloponnese**
-- ⚡ Specializing in high-speed digital PCB design, mixed-signal acquisition platforms, and real-time embedded systems
+- 🤖 Former Lead Electronics Engineer for the **UoP Robotics Team**
+- ⚡ Focus: High-speed digital layout, mixed-signal acquisition platforms, and STM32/ESP32 embedded firmware
 - 📍 Based in Greece
 
 ---
 
-### 🛠️ Core Tech Stack
+### 🛠️ Technical Stack
 
-**Hardware & Electronics**
+**Hardware & CAD:**
 ![Altium Designer](https://img.shields.io/badge/Altium_Designer-A20000?style=for-the-badge&logo=altium-designer&logoColor=white)
 ![KiCad](https://img.shields.io/badge/KiCad-314190?style=for-the-badge&logo=kicad&logoColor=white)
+![LTspice](https://img.shields.io/badge/LTspice-910000?style=for-the-badge)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
+
+**Embedded Systems & Languages:**
 ![STM32](https://img.shields.io/badge/STM32-03234C?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-
-**Firmware & Systems**
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![VHDL](https://img.shields.io/badge/VHDL-002B49?style=for-the-badge)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
 ---
 
-### 🎛️ Engineering Focus Areas
+### 🔬 Featured Hardware Designs
 
-- **High-Speed Digital & Mixed-Signal PCB Design:** Multi-layer board stackups, high-speed memory interfaces (FMC SDRAM, High-Speed USB 2.0 / ULPI), impedance control, and high-density component routing.
-- **Biopotential Signal Acquisition & Analog Front-Ends:** Low-noise signal conditioning, high-precision instrumentation amplifiers, bio-AFE ICs, and LTspice circuit simulation.
-- **Power Architecture & Safety Isolation:** Switching buck/boost converters, battery charger circuit design (LiPo power path management), and galvanic isolation compliant with safety standards (IEC 60601-1).
-- **Embedded Systems & Wireless Interfacing:** STM32 (ARM Cortex-M4/M7) bare-metal development, DMA-driven peripheral control, low-power ESP32 wireless communication, and VHDL digital logic design.
+<div align="center">
+
+#### 32-Channel Mixed-Signal EEG Platform
+*Custom acquisition board featuring TI AFEs, STM32H7, FMC SDRAM, USB 2.0 High-Speed (ULPI), and isolated power architecture.*
+
+| Altium 3D Render | PCB Routing Layer |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/eeg_3d.png" width="400" alt="32-Channel EEG 3D Render"> | <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/eeg_layout.png" width="400" alt="PCB Layout Trace Routing"> |
 
 ---
 
-### 📈 GitHub Profile Stats
-![Fotis' GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight)
+#### Autonomous Competition Robotics Hardware
+*STM32F405 high-speed line follower board with 16-sensor circular IR array, motor drivers, and high-current power distribution.*
+
+| Populated PCB Assembly | System Architecture |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/robot_pcb.jpg" width="400" alt="Populated Robot PCB"> | <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/images/robot_diagram.png" width="400" alt="Hardware Architecture Diagram"> |
+
+</div>
+
+---
+
+### 🎛️ Technical Competencies
+
+* **High-Speed & Mixed-Signal Layout:** Multi-layer board stackups, length matching, USB 2.0 ULPI routing, FMC memory buses (166 MHz SDRAM), and high-density routing in Altium Designer.
+* **Analog Front-Ends & Medical Safety:** Precision biopotential signal conditioning (TI ADS1299/ADS1298), active filter design, LTspice simulation, and IEC 60601-1 compliant galvanic isolation slots.
+* **Power Distribution:** High-efficiency switching buck/boost converters, LiPo power-path management, and current-sense shunts.
+* **Firmware & GUI Tools:** STM32 bare-metal C/C++ firmware with DMA streams, low-latency ESP-NOW, and PyQt5/pyqtgraph serial streaming applications.
+
+---
+
+### 📈 GitHub Activity
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="45%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight" alt="Top Languages" width="40%"/>
+</div>
 
 ---
 
