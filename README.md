@@ -5,7 +5,7 @@
 ---
 
 ### Executive Summary
-Electrical & Computer Engineering student with hands-on experience in full-lifecycle hardware development, mixed-signal PCB layout, and low-level firmware integration. Proven track record in multi-layer board design, analog signal conditioning, and power path distribution for autonomous robotics and embedded sensor nodes. Skilled in taking hardware systems from initial schematic capture and LTspice simulation through layout, board bring-up, and hardware-software integration.
+Electrical & Computer Engineering student with hands-on experience in full-lifecycle hardware development, mixed-signal PCB layout, and low-level firmware integration. Proven track record in multi-layer board design, analog signal conditioning, and power path distribution for autonomous robotics, digital signal processing, and biopotential telemetry. Skilled in taking hardware systems from initial schematic capture and LTspice simulation through layout, board bring-up, and hardware-software integration.
 
 ---
 
@@ -13,34 +13,60 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 
 <div align="center">
 
-#### [Autonomous Robotics Control Hardware](https://github.com/Fotisstam)
-*Hardware architecture and power distribution for high-speed competition robotics.*
+#### [ESP32_IMU_BOARD](https://github.com/Fotisstam/ESP32_IMU_BOARD)
+*ESP32-C3 MINI based IMU board featuring battery management circuitry and motion tracking.*
 
-| Assembled PCB / Hardware | Sensor Array Board |
+| PCB Layout / RF Design | 3D Board View |
 | :---: | :---: |
-| <a href="https://github.com/Fotisstam"><img src="assets/robot_pcb.jpg" width="400" alt="Robotics Main Control Board"></a> | <a href="https://github.com/Fotisstam"><img src="assets/sensor_array.png" width="400" alt="16-Sensor Array PCB"></a> |
+| <a href="https://github.com/Fotisstam/ESP32_IMU_BOARD"><img src="assets/mocap_node.png" width="400" alt="ESP32-C3 MoCap Hardware Node Layout"></a> | <a href="https://github.com/Fotisstam/ESP32_IMU_BOARD"><img src="assets/mocap_3d.png" width="400" alt="ESP32-C3 MoCap 3D Render"></a> |
 
 </div>
 
-- **Sensor PCB & Array:** Designed 16-channel circular IR sensor arrays with optimized trace routing for high-frequency signal capture.
-- **Power & Actuation:** Integrated high-current switching buck converters, current-sense shunts, and motor driver power stages on a compact multi-layer board.
-- **Embedded Control:** Developed low-level STM32 C/C++ firmware utilizing DMA streams and hardware timers for real-time PID control loops.
+- **Circuit & RF Integration:** Integrated ESP32-C3 MINI module with 9-DOF motion tracking sensors, low-noise LDO power regulation, and antenna keep-out domains streaming telemetry over ESP-NOW.
+- **Power Management:** Designed LiPo battery charger circuitry, power-path routing, and low-dropout power rails optimized for wearable applications.
 
 ---
 
 <div align="center">
 
-#### [Wireless Motion Capture (MoCap) Sensor Node](https://github.com/Fotisstam)
-*Low-power inertial telemetry node for real-time orientation tracking.*
+#### [EGG-Plotter-App](https://github.com/Fotisstam/EGG-Plotter-App)
+*Real-time multi-channel EEG signal analyzer and plotter in Python using STM32 serial communication.*
 
-| Hardware Node Layout | 3D Board View |
-| :---: | :---: |
-| <a href="https://github.com/Fotisstam"><img src="assets/mocap_node.png" width="400" alt="ESP32-C3 MoCap Hardware Node Layout"></a> | <a href="https://github.com/Fotisstam"><img src="assets/mocap_3d.png" width="400" alt="ESP32-C3 MoCap 3D Render"></a> |
+| Real-Time Waveform GUI |
+| :---: |
+| <a href="https://github.com/Fotisstam/EGG-Plotter-App"><img src="assets/eeg_app_gui.png" width="500" alt="PyQt5 Waveform Visualizer App"></a> |
 
 </div>
 
-- **Circuit & RF Design:** Integrated ESP32-C3 microcontroller with a 9-DOF IMU, low-noise LDO power filtering, and RF antenna keep-out domains streaming over low-latency ESP-NOW protocol.
-- **Power Management:** Optimized low-dropout power distribution and battery circuitry for compact wearable form factors.
+- **Software Telemetry:** Built high-throughput Python (PyQt5 / pyqtgraph) application processing serial telemetry streams from STM32 microcontrollers for biopotential signal visualization.
+
+---
+
+<div align="center">
+
+#### Robotics Platforms & Hardware Modules
+
+| [Line_Follower-main](https://github.com/Fotisstam/Line_Follower-main) | [MICROMOUSE-V2-](https://github.com/Fotisstam/MICROMOUSE-V2-) |
+| :---: | :---: |
+| <a href="https://github.com/Fotisstam/Line_Follower-main"><img src="assets/robot_pcb.jpg" width="400" alt="Line Follower Main PCB"></a> | <a href="https://github.com/Fotisstam/MICROMOUSE-V2-"><img src="assets/micromouse_v2.png" width="400" alt="Micromouse V2 Altium Render"></a> |
+| **STM32 Line Follower Control:** Bare-metal C firmware, DMA ADC scanning, high-speed PID control loops, and motor actuation. | **Micromouse V2 PCB:** High-density Altium Designer multi-layer layout with optimized motor drivers and sensor routing. |
+
+</div>
+
+- **[IR_Sensor_Module](https://github.com/Fotisstam/IR_Sensor_Module):** Designed dedicated IR sensor array hardware with panelization for automated assembly.
+- **[Micromouse](https://github.com/Fotisstam/Micromouse):** Low-level C++ control algorithms, wall-following telemetry, and real-time navigation routines.
+- **[Sumo_Robot_ESP32](https://github.com/Fotisstam/Sumo_Robot_ESP32):** Wireless ESP32 power stage, high-current switching drivers, and tactile sensor interfacing.
+
+---
+
+<div align="center">
+
+#### Specialized Embedded & Logic Systems
+
+</div>
+
+- **[LoFi_Sampler-DSP](https://github.com/Fotisstam/LoFi_Sampler-DSP):** Real-time digital signal processing in C for audio sampling, filtering, and effect generation.
+- **[FPGA_exercises](https://github.com/Fotisstam/FPGA_exercises):** VHDL digital logic design, ALU architectures, state machines, and simulation testbenches.
 
 ---
 
@@ -49,7 +75,7 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 * **EDA & Design Tools:** Altium Designer (Schematic Capture, Multi-Layer Layout, Rigid Stackups), KiCad, Cadence Virtuoso, LTspice, Fusion 360
 * **PCB Architecture & Signal Integrity:** Mixed-Signal Layout, Controlled Impedance Trace Routing, Ground Domain Isolation, Length Matching, Differential Pairs
 * **Analog & Circuitry:** Low-Noise Instrumentation Amplifiers, Active Filtering Networks, Small-Signal Conditioning, LTspice Modeling
-* **Power Distribution Networks (PDN):** Switching Regulators (Buck/Boost), Low-Dropout Regulators (LDOs), LiPo Battery Chargers, Power-Path MOSFET Management, Current Sense Shunts
+* **Power Distribution Networks (PDN):** Switching Regulators (Buck/Boost), Low-Dropout Regulators (LDOs), LiPo Battery Chargers, Power-Path Management, Current Sense Shunts
 * **Embedded Interfaces & Firmware:** STM32 (ARM Cortex-M4/M7), ESP32 Wireless (ESP-NOW), DMA Architecture, Bare-Metal C/C++, VHDL (FPGA Interfacing), SPI, I2C, UART
 * **Design for Compliance & Testing:** Board Bring-Up & Hardware Debugging, Oscilloscopes, Logic Analyzers, Multimeters
 
