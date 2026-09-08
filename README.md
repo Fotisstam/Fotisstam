@@ -66,7 +66,7 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 </div>
 
 - **[LoFi_Sampler-DSP](https://github.com/Fotisstam/LoFi_Sampler-DSP):** Real-time digital signal processing in C for audio sampling, filtering, and effect generation.
-- **[FPGA_exercises](https://github.com/Fotisstam/FPGA_exercises):** VHDL digital logic design, ALU architectures, state machines, and simulation testbenches.
+
 
 ---
 
