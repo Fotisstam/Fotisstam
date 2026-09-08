@@ -1,4 +1,4 @@
-# Hi, I'm Fotis Stamatakis 👋
+Fotis Stamatakis 👋
 **Electrical & Computer Engineering Student | Embedded Systems & Hardware Engineer**
 
 ---
