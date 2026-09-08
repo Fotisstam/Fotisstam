@@ -9,6 +9,31 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 
 ---
 
+### 🚀 Projects Overview
+
+#### **32-Channel Biopotential Acquisition Platform**
+*Full-lifecycle development of a high-density, mixed-signal EEG acquisition system.*
+- **Analog & AFE:** Designed multi-channel bio-amplifier front-ends utilizing TI biopotential AFEs, incorporating low-noise active filters and precision voltage references.
+- **High-Speed Digital Layout:** Managed multi-layer stackups in Altium Designer with FMC memory interface routing (166 MHz SDRAM), High-Speed USB 2.0 (ULPI PHY), and length-matched differential buses.
+- **Power & Safety Isolation:** Implemented switching regulators, LiPo power-path charging management, and galvanic isolation barriers compliant with IEC 60601-1 creepage/clearance constraints.
+
+#### **Autonomous Robotics Control Hardware**
+*Hardware architecture and power distribution for high-speed competition robotics.*
+- **Sensor PCB & Array:** Designed 16-channel circular IR sensor arrays with optimized trace routing for high-frequency signal capture.
+- **Power & Actuation:** Integrated high-current switching buck converters, current-sense shunts, and motor driver power stages on a compact multi-layer board.
+- **Embedded Control:** Developed low-level STM32 C/C++ firmware utilizing DMA streams and hardware timers for real-time PID control loops.
+
+#### **Wireless Motion Capture (MoCap) Sensor Node**
+*Low-power, compact wireless tracking node for inertial telemetry.*
+- **Circuit Design:** Integrated ESP32-C3 microcontroller with a 9-DOF inertial measurement unit (IMU) and low-noise LDO power filtering.
+- **RF & Wireless Integration:** Designed RF layout with antenna keep-out domains and implemented low-latency wireless streaming via ESP-NOW protocol.
+
+#### **Real-Time Biopotential Waveform Visualizer**
+*Cross-platform desktop application for hardware telemetry and data analysis.*
+- **Software Integration:** Developed high-throughput Python (PyQt5 / pyqtgraph) desktop software to process and display real-time biopotential serial data streams from STM32 hardware platforms.
+
+---
+
 ### 🛠 Technical Core Competencies
 
 * **EDA & Design Tools:** Altium Designer (Schematic Capture, Multi-Layer Layout, Rigid Stackups), KiCad, Cadence Virtuoso, LTspice, Fusion 360
@@ -17,15 +42,6 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 * **Power Distribution Networks (PDN):** Switching Regulators (Buck/Boost), Low-Dropout Regulators (LDOs), LiPo Battery Chargers, Power-Path MOSFET Management, Current Sense Shunts
 * **Embedded Interfaces & Firmware:** STM32 (ARM Cortex-M4/M7), ESP32 Wireless (ESP-NOW), DMA Architecture, Bare-Metal C/C++, VHDL (FPGA Interfacing), SPI, I2C, UART
 * **Design for Compliance & Testing:** Board Bring-Up & Hardware Debugging, Galvanic Isolation Slots (IEC 60601-1 Creepage/Clearance), Oscilloscopes, Logic Analyzers
-
----
-
-### 🎛 Engineering Domains & Specialties
-
-* **High-Density Mixed-Signal Hardware:** Design and execution of dense multi-layer PCBs integrating high-speed digital buses alongside noise-sensitive analog instrumentation.
-* **Analog Front-End (AFE) Signal Acquisition:** Sub-millivolt signal acquisition, low-noise active filtering, differential biopotential channels, and low-drift reference routing.
-* **Isolated Power Architecture:** Designing medical/safety-compliant isolation barriers, isolated DC-DC stages, and high-efficiency power distribution units.
-* **Embedded Systems Integration:** Low-level C/C++ driver development, register-level peripheral configuration, and real-time sensor streaming protocols over wireless and high-speed USB interfaces.
 
 ---
 
