@@ -1,110 +1,50 @@
-import React, { useState } from 'react';
-
-export default function ReadmeGenerator() {
-  const [formData, setFormData] = useState({
-    name: 'Fotis Stamatakis',
-    role: 'Electrical & Computer Engineering Student | Embedded Hardware Engineer',
-    about: 'Focusing on high-speed digital PCB layout, biopotential AFEs, and STM32/ESP32 firmware.',
-    githubUser: 'fotis-stamatakis',
-    linkedin: 'fotis-stamatakis',
-    eeg3DUrl: 'https://raw.githubusercontent.com/.../eeg_3d.png',
-    eegLayoutUrl: 'https://raw.githubusercontent.com/.../eeg_layout.png',
-  });
-
-  // Pure function to generate the final Markdown
-  const generateMarkdown = () => {
-    return `# Hi, I'm ${formData.name} 👋
-**${formData.role}**
+# Hi, I'm Fotis Stamatakis 👋
+**Electrical & Computer Engineering Student | Embedded Hardware Engineer**
 
 ---
 
 ### 👨‍💻 About Me
-- 🎓 ${formData.about}
+- 🎓 Electrical & Computer Engineering student at the **University of Peloponnese**
+- 🤖 Lead Electronics Engineer for the **UoP Robotics Team**
+- ⚡ Focus: High-speed digital layout, mixed-signal acquisition platforms, and STM32/ESP32 embedded firmware
+- 📍 Based in Greece
 
 ---
 
-### 🔬 Featured Hardware Designs
+### 🛠️ Technical Stack
 
+**Hardware & CAD:**
+![Altium Designer](https://img.shields.io/badge/Altium_Designer-A20000?style=for-the-badge&logo=altium-designer&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-314190?style=for-the-badge&logo=kicad&logoColor=white)
+![LTspice](https://img.shields.io/badge/LTspice-910000?style=for-the-badge)
+![Fusion 360](https://img.shields.io/badge/Fusion_360-0696D7?style=for-the-badge&logo=autodesk&logoColor=white)
+
+**Embedded Systems & Languages:**
+![STM32](https://img.shields.io/badge/STM32-03234C?style=for-the-badge&logo=stmicroelectronics&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![VHDL](https://img.shields.io/badge/VHDL-002B49?style=for-the-badge)
+
+---
+
+### 🎛️ Technical Competencies
+
+- **High-Speed & Mixed-Signal Layout:** Multi-layer board stackups, length matching, USB 2.0 ULPI routing, FMC memory buses (166 MHz SDRAM), and high-density routing in Altium Designer.
+- **Analog Front-Ends & Medical Safety:** Precision biopotential signal conditioning (TI ADS1299/ADS1298), active filter design, LTspice simulation, and IEC 60601-1 compliant galvanic isolation slots.
+- **Power Distribution:** High-efficiency switching buck/boost converters, LiPo power-path management, and current-sense shunts.
+- **Firmware & GUI Tools:** STM32 bare-metal C/C++ firmware with DMA streams, low-latency ESP-NOW, and PyQt5/pyqtgraph serial streaming applications.
+
+---
+
+### 📈 GitHub Activity
 <div align="center">
-
-#### 32-Channel Mixed-Signal EEG Platform
-| Altium 3D Render | PCB Routing Layer |
-| :---: | :---: |
-| <img src="${formData.eeg3DUrl}" width="400" alt="32-Channel EEG 3D Render"> | <img src="${formData.eegLayoutUrl}" width="400" alt="PCB Layout"> |
-
+  <img src="https://github-readme-stats.vercel.app/api?username=Fotisstam&show_icons=true&theme=tokyonight" alt="GitHub Stats" width="45%"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fotisstam&layout=compact&theme=tokyonight" alt="Top Languages" width="40%"/>
 </div>
 
 ---
 
-### 📈 GitHub Stats
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${formData.githubUser}&show_icons=true&theme=tokyonight)
-
----
-
 ### 📫 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/${formData.linkedin})
-`;
-  };
-
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = () => {
-    navigator.clipboard.writeText(generateMarkdown());
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  return (
-    <div style={{ display: 'flex', gap: '20px', padding: '20px', fontFamily: 'sans-serif' }}>
-      {/* Input Section */}
-      <div style={{ flex: 1 }}>
-        <h2>Configure Profile</h2>
-        
-        <label>Full Name:</label><br />
-        <input 
-          type="text" 
-          value={formData.name} 
-          onChange={(e) => setFormData({...formData, name: e.target.value})} 
-          style={{ width: '100%', marginBottom: '10px' }}
-        />
-
-        <label>Professional Role:</label><br />
-        <input 
-          type="text" 
-          value={formData.role} 
-          onChange={(e) => setFormData({...formData, role: e.target.value})} 
-          style={{ width: '100%', marginBottom: '10px' }}
-        />
-
-        <label>GitHub Username:</label><br />
-        <input 
-          type="text" 
-          value={formData.githubUser} 
-          onChange={(e) => setFormData({...formData, githubUser: e.target.value})} 
-          style={{ width: '100%', marginBottom: '10px' }}
-        />
-
-        <label>EEG 3D Render Image URL:</label><br />
-        <input 
-          type="text" 
-          value={formData.eeg3DUrl} 
-          onChange={(e) => setFormData({...formData, eeg3DUrl: e.target.value})} 
-          style={{ width: '100%', marginBottom: '10px' }}
-        />
-      </div>
-
-      {/* Output / Code Section */}
-      <div style={{ flex: 1, backgroundColor: '#f4f4f4', padding: '15px', borderRadius: '8px' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-          <h2>Generated Markdown</h2>
-          <button onClick={handleCopy}>
-            {copied ? 'Copied!' : 'Copy Markdown'}
-          </button>
-        </div>
-        <pre style={{ whiteSpace: 'pre-wrap', wordBreak: 'break-word', fontSize: '12px' }}>
-          {generateMarkdown()}
-        </pre>
-      </div>
-    </div>
-  );
-}
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/fotis-stamatakis-441b50296)
