@@ -5,7 +5,6 @@
 
 ### 👨‍💻 About Me
 - 🎓 Electrical & Computer Engineering student at the **University of Peloponnese**
-- 🤖 Lead Electronics Engineer for the **UoP Robotics Team**
 - ⚡ Specializing in high-speed digital PCB design, mixed-signal acquisition platforms, and real-time embedded systems
 - 📍 Based in Greece
 
