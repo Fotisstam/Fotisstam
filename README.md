@@ -18,7 +18,7 @@ Electrical & Computer Engineering student with hands-on experience in full-lifec
 
 | PCB Layout / RF Design | 3D Board View |
 | :---: | :---: |
-| <a href="https://github.com/Fotisstam/ESP32_IMU_BOARD"><img src="assets/mocap_node.png" width="400" alt="ESP32-C3 MoCap Hardware Node Layout"></a> | <a href="https://github.com/Fotisstam/ESP32_IMU_BOARD"><img src="assets/mocap_3d.png" width="400" alt="ESP32-C3 MoCap 3D Render"></a> |
+| <a href="https://private-user-images.githubusercontent.com/105354225/634955244-d8f89d56-4916-4111-9fb2-4058a8d6f97f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODg4ODgxMzgsIm5iZiI6MTc4ODg4NzgzOCwicGF0aCI6Ii8xMDUzNTQyMjUvNjM0OTU1MjQ0LWQ4Zjg5ZDU2LTQ5MTYtNDExMS05ZmIyLTQwNThhOGQ2Zjk3Zi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwOTA4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDkwOFQxNzE3MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xNjhiZWE1MzJjMWQ3M2E0YzFiYWZlNDQxOGFjMGQ5ODJjZWI3NTBjOGM2MTFlMjFlNDMxYmNhODcyNTc1ZDkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.iyK4FCZv1yfCQK5liRZKwhyBvdxPfMax5Tvr_h0VVHs"><img src="assets/mocap_node.png" width="400" alt="ESP32-C3 MoCap Hardware Node Layout"></a> | <a href="https://github.com/Fotisstam/ESP32_IMU_BOARD"><img src="assets/mocap_3d.png" width="400" alt="ESP32-C3 MoCap 3D Render"></a> |
 
 </div>
 
